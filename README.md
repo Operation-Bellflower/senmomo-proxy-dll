@@ -15,7 +15,7 @@ Copy-Item .\ProxyDll\Release\ProxyDll.dll .\d3d9.dll
 
 ## Overview
 
-The `ProxyDLL` solution builds a DLL file that mimicks the interface of `d3d9.dll`, a graphics API used by the BGI engine. Placing the DLL next to the BGI executable will cause it to be loaded instead of the normal `d3d9.dll` library.
+The `ProxyDLL` solution builds a DLL file that mimicks the interface of `d3d9.dll` (a graphics API used by the BGI engine) and adds various custom behaviors to the engine. Placing the DLL next to the BGI executable will cause it to be loaded instead of the normal `d3d9.dll` library.
 
 A lot of this code has been forked from [VNTranslationTools by ArcusMaximus](https://github.com/arcusmaximus/VNTranslationTools).
 
