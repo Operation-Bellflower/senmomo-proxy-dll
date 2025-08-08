@@ -1,0 +1,3 @@
+LIBRARY ProxyDll
+EXPORTS
+    Direct3DCreate9=fake_Direct3DCreate9 @1
